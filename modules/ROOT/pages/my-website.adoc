@@ -1,0 +1,19 @@
+= My website
+:keywords: antora, asciidoc, website, portfolio
+
+== Why?
+Transitioning the documentation of three programs into link:https://knowledgehub.vibestechnology.com/course/product-guides[VIBES Product Guides] by using AsciiDoc and Antora environment showed me how one can create a professional-looking software documentation in a very short time, for free.
+
+Therefore, I wanted to create my portfolio using this approach. 
+
+== What?
+This website showcases my versatility through projects I have completed in various fields of engineering.
+
+== How?
+The content for each page of the website is created in AsciiDoc. AsciiDoc is a powerful plain-text markup language, similar to the Markdown. 
+
+Afterwards, Antora is used to piece these pages together and by using the default UI it generates the static website.
+
+Small modifications to the UI template were made with CSS and Handlebars to adjust the style and remove unnecessary elements from the website.
+
+It may not be pretty or modern, but it's clean. 😊

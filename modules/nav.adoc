@@ -1,0 +1,10 @@
+* xref:cv-malic.adoc[*CV*] 
+
+.Portfolio
+* xref:deep-drawing-process-optimization.adoc[Deep drawing process optimization]
+* xref:modal-and-experimental-modal-analysis-of-insulation-floors.adoc[Modal and experimental modal analysis (EMA) of insulation floors]
+* xref:daqx.adoc[DAQx] 
+* xref:image-to-adina.adoc[Image to ADINA]
+* xref:solidworks-automation-example.adoc[SolidWorks automation example] 
+* xref:cable-organizer.adoc[Cable organizer]
+* xref:my-website.adoc[My website]

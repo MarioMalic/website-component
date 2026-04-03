@@ -1,0 +1,6 @@
+name: website-component
+title: Home
+version: ~
+start_page: homepage.adoc
+nav:
+- modules/nav.adoc

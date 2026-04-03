@@ -1,0 +1,43 @@
+extends: default
+
+page:
+  size: A4
+  margin:
+    top: 1 cm
+    bottom: 1 cm
+    left: 2 cm
+    right: 2 cm
+
+heading_h2:
+  font-size: 14
+  font-style: bold
+  margin-top: 0
+  margin-bottom: 3
+
+table:
+  border_width: 0
+  grid_width: 0
+  head:
+    border_bottom_width: 0
+  body:
+    border_bottom_width: 0
+
+list:
+  item-spacing: 0
+
+base:
+  line-height: 1
+
+paragraph:
+  margin-top: 0
+  margin-bottom: 0
+
+
+footer:
+  recto:
+    right:
+      content: ''
+  verso:
+    left:
+      content: ''
+  border-width: 0

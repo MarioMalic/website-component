@@ -1,0 +1,23 @@
+= Cable organizer
+:keywords: 3D printing, cable organizer, cable router
+
+== Why?
+
+If you are into NVH testing, entangled or incorrectly connected cables are probably something you are familiar with. This small apparatus is a 3D printed part, designed to save you (and me 😊) from headaches during measurements. 
+
+== What?
+It's a small tool that is assembled of 3D printed parts, springs, and magnets. It has slots through which you can insert your cables and route them from the data acquisition device to the test subject. It can:
+
+* be used for cable labeling purposes
+* be used to prepare the test setup by attaching the sensors and cables beforehand
+* be attached to ferromagnetic surfaces (with magnets)
+
+== How?
+
+Creativity, CAD modelling and 3D printing.
+    
+== Links and images
+link:https://grabcad.com/library/microdot-cable-organizer-1[GrabCAD link].
+
+image::cable-organizer.png[title="Side view"]
+image::cable-organizer.gif[title="Opened and closed state"]

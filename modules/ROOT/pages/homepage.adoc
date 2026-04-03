@@ -1,0 +1,44 @@
+= Hi there!
+:keywords: NVH, FEA, CAD, CAE, automation, mechanical engineering, freelance
+
+
+My name is Mario and I am a mechanical engineer with hands-on experience in noise and vibrations, programming, and simulations, with a unique skill set that can be seen in my portfolio. Proficient in executing NVH campaigns and the advanced usage of engineering software. Experienced in developing custom tools to streamline analyses and workflows and improve engineering efficiency. Independent, detail-oriented, and motivated to push the limits in multidisciplinary environments.
+
+== Noise and vibrations
+
+* Experienced with test-based modelling of automotive components, such as bushings, lower control arms, subframes, trimmed body and full vehicle models to be used in dynamic substructuring
+
+* Knowledgeable about cutting-edge methods in NVH (Virtual Point, Source Characterization, Dynamic Substructuring, TPA)
+
+* Experienced in conducting small- and large-scale NVH measurement campaigns in both laboratory and field environments
+
+* Strong knowledge of the NVH measurement chain (sensors, accessories, cables, data acquisition systems)
+
+== Programming
+
+Developed MATLAB apps for:
+
+* Optimization of a deep drawing process by combining simulation tools and optimization algorithms
+* Data acquisition from NI data acquisition systems (DAQ)
+* Various calculation tools designed to automate data post-processing and analysis (reverberation time, curve fitting, spectrum analysis)
+
+Other:
+
+* Wrote VBA code that communicates with the SolidWorks API to extract geometry information from an assembly model
+* Developed various tools to parse data from engineering software for analysis
+* Built a small LLM chatbot by scraping website content, embedding it into a database, and using the DeepSeek reasoning model for generating responses
+
+== Simulations
+
+* Modal analysis of insulation floors and transmission simulators
+* Non-linear structural analysis of the deep drawing process
+* Script-based FE modelling and automation
+
+== Other 
+
+* CAD design of various CNC machined and 3D printed parts
+* Implemented and managed the backend of an e-learning platform using LearnWorlds as the LMS, supporting course creation and distribution to multiple user tiers
+* Migrated and published software documentation using Antora and Asciidoctor, and performed basic UI theme customization with CSS
+* Implementing a service desk for customer support and bug reports with Jira Service Management (in progress)
+* Taught laboratory classes at the university: Computer-Aided Design, Computer-Aided Analysis, Programming, Vibrations
+

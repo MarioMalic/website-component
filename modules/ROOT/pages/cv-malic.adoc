@@ -1,0 +1,112 @@
+= Mario Malić
+:keywords: CV, portfolio, curriculum vitae, mechanical engineer, freelance
+:icons: font
+
+
+[cols="7,4", frame=none, grid=none]
+|===
+
+1.5+| Mechanical engineer with four years of experience in the NVH domain, known for strong attention to detail and a results-driven mindset.
+|📧 mario@mariomalic.com
+|📱 +31 6 437 62 142
+|🌐 link:linkedin.com/in/mario-malic[LinkedIn]
+|☀️ 32
+|===
+
+== Work experience
+
+[cols="3d,>1", frame=none, grid=none]
+|===
+|*VIBES.technology B.V.* in Delft, The Netherlands | link:www.vibestechnology.com[website]
+|*Junior Solution Engineer* | Aug '25 - Present
+|*Junior Project Engineer* | Aug '24 - Jul '25
+
+2+a|
+* Performed test-based modelling, measurements and post-processing of automotive components and assemblies (full vehicle, trimmed body, subframe, lower control arm, and bushings) to develop accurate component models 
+* Applied advanced VIBES methodologies (Virtual Point Technology, Dynamic Substructuring and Source Characterization) across multiple projects providing customers with actionable insights
+* Orchestrated and implemented the backend of an e-learning environment, serving content to customers, colleagues and leads to significantly reduce the effort required for in-person and online software training
+* Migrated software manuals to the e-learning using an improved documentation pipeline that enables seamless creation, maintenance and publishing
+* Provided technical support to customers by answering inquiries, troubleshooting, and delivering solutions
+* Supported the software development team through software testing, bug identification and reporting
+|===
+
+[cols="3,>1", frame=none, grid=none]
+|===
+|*Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture* in Split, Croatia | link:https://www.fesb.unist.hr[website]
+|*Junior Researcher* | Mar '21 - Sep '23
+2+a|* Created finite element models (verification) of insulating floors and performed experimental
+modal analysis (validation)
+* Performed laboratory, field measurements and analysis of vibrations and noise as per ISO
+2631, ISO 3382, and ISO 16283
+* Developed scripts to extract CAD geometry data to create FEM model geometry using APIs
+* 3D printed various tools and measuring apparatus
+* Taught laboratory classes to students: Computer-Aided Design, Computer-Aided Analysis, Programming, Vibrations
+* Dealt with project administration, equipment procurement and tender documentation
+|===
+
+[cols="3,>1", frame=none, grid=none]
+|===
+|*TMR Plastics* in Bydgoszcz, Poland | link:https://www.tmr.pl/en[website]
+|*Injection Moulding Operator* | Mar '19 - Aug '19
+2+a|* Visual inspection of the quality of moulded parts
+|===
+
+[cols="3,>1", frame=none, grid=none]
+|===
+|*Technical University Liberec* in Liberec, Czech Republic | link:https://www.tul.cz/en[website]
+|*Trainee* | Jun '16 - Jul '16
+2+a|* Basic MCK modelling in MSC Adams to the obtain model dynamics
+|===
+
+== Education
+[cols="3,>1", frame=none, grid=none]
+|===
+|*Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture* in Split, Croatia | link:https://www.fesb.unist.hr[website]
+|M. Sc. in Mechanical Engineering (Specialization in CAD and CAE) | Oct '16 - Sep '18
+|B. Sc. in Mechanical Engineering | Oct '12 - Sep '16
+|===
+
+== Software skills
+[cols="1,5", frame=none, grid=none]
+|===
+| *Advanced* | CAD (Onshape, SolidWorks), CAE (ADINA), MATLAB, Microsoft Office, VIBES (DIRAC, SOURCE, COUPLE)
+| *Basic* | Antora, Asciidoctor, CAD (AutoCAD, CATIA, PTC Creo, Siemens NX), CAE (ANSYS), C, C# .NET, Git, NI LabVIEW, Python, VBA
+|===
+
+== Other skills and interests
+
+[cols="1d,6", frame=none, grid=none]
+|===
+
+| *Certificates:*
+    a| • SolidWorks (CSWA – Mechanical Design)
+    • MATLAB (Programming Techniques, Fundamentals, Data Processing and Visualization, Signal Processing)
+    • Foundational C# with Microsoft
+    • A Hands-on Introduction to Engineering Simulations
+| *Interests:*
+    a| • NVH measurements and analysis, CAx (finite element modelling, optimization methods)
+    • Programming (improving workflows by task automation, developing applications for increased efficiency)
+| *Activities:*
+    a| • Authored and co-authored conference articles
+    • Contributing to online communities (MATLAB Answers, Stack Overflow)
+    • Participated in a few hackathons (Hackdays BW, EUvsVirus, VersusVirus)
+    • Alumni member of an international student association IAESTE
+| *License:*
+a| • A, B
+| *Hobbies:*
+a| • Cooking, music, badminton, yoga
+|===
+
+
+== Projects
+
+xref:deep-drawing-process-optimization.adoc[Deep drawing process optimization] +
+MATLAB application that couples FE simulation tool with optimization algorithms to improve process efficiency
+
+xref:daqx.adoc[DAQx] +
+MATLAB app that enables easy data acquisition from NI DAQ devices
+
+xref:modal-and-experimental-modal-analysis-of-insulation-floors.adoc[Modal and experimental modal analysis of insulation floors] +
+FE simulation of an insulating floor used on ships and its experimental validation
+
+

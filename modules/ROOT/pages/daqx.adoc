@@ -1,0 +1,20 @@
+= DAQx
+:keywords: daq, data acquisition, matlab, ni, software, project
+
+== Why?
+
+DAQx was developed to simplify basic data acquisition tasks so you don't have to turn on LabVIEW or write code in MATLAB. 😉
+
+== What?
+
+DAQx is a MATLAB-based application with a GUI for data acquisition with NI DAQ devices. It enables users to configure data acquisition settings, manage channels, visualize data in real time, and export data for further processing.
+
+== How?
+
+DAQx operates by interfacing MATLAB with NI hardware through the NI-DAQmx drivers and the Data Acquisition Toolbox. After installing the required drivers and opening the app within MATLAB, the user can select connected devices, configure channels and acquisition settings, and initiate data collection through the GUI. The application provides real-time visualization and supports data storage for subsequent analysis, with no coding required.
+
+== Links and images
+link:https://mathworks.com/matlabcentral/fileexchange/128118-daqx[MATLAB File Exchange link]
+
+image::daq-main.png[title="DAQ configuration window"]
+image::daq-measurement.png[title="Acquired data (simulated device)"]
