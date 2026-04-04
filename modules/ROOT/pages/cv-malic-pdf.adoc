@@ -101,13 +101,13 @@ a| • Cooking, music, badminton, yoga
 
 == Projects
 
-link:http://mariomalic.com/website-component/deep-drawing-process-optimization.html[Deep drawing process optimization] +
+link:http://mariomalic.com/portfolio/deep-drawing-process-optimization.html[Deep drawing process optimization] +
 MATLAB application that couples FE simulation tool with optimization algorithms to improve process efficiency
 
-link:http://mariomalic.com/website-component/daqx.html[DAQx] +
+link:http://mariomalic.com/portfolio/daqx.html[DAQx] +
 MATLAB app that enables easy data acquisition from NI DAQ devices
 
-link:http://mariomalic.com/website-component/modal-and-experimental-modal-analysis-of-insulation-floors.html[Modal and experimental modal analysis of insulation floors] +
+link:http://mariomalic.com/portfolio/modal-and-experimental-modal-analysis-of-insulation-floors.html[Modal and experimental modal analysis of insulation floors] +
 FE simulation of an insulating floor used on ships and its experimental validation
 
 
