@@ -11,10 +11,11 @@ This site is a collection of projects that give a better picture of what I can d
 
 === xref:modal-and-experimental-modal-analysis-of-insulation-floors.adoc[Modal and experimental modal analysis of insulation floors]
 
+
 [cols="1,1", frame=none, grid=none]
 |===
-a|image:fe-mode-shape.gif[title="Simulated mode shape"]
-a|image:ema-mode-shape.gif[title="Measured mode shape"]
+a|image::fe-mode-shape.gif[title="Simulated mode shape"]
+a|image::ema-mode-shape.gif[title="Measured mode shape"]
 |===
 
 Structural vibration from ship machinery propagates through the floors to passengers on board. This project builds a finite element model of an insulation floor, runs experimental modal analysis on the real structure, and validates the two against each other — natural frequencies, mode shapes, and damping — achieving less than 5% difference across the first six vibration modes. A good example of the full NVH workflow: model, measure, compare, refine.
@@ -25,8 +26,8 @@ Structural vibration from ship machinery propagates through the floors to passen
 
 [cols="1,1", frame=none, grid=none]
 |===
-a|image:deep-drawing-animation.gif[title="FE simulation of the deep drawing process"]
-a|image:main-ui.png[title="Optimization tool UI"]
+a|image::deep-drawing-animation.gif[title="FE simulation of the deep drawing process"]
+a|image::main-ui.png[title="Optimization tool UI"]
 |===
 
 Sheet metal has a directional memory from rolling, which causes uneven deformation when it is drawn into a cup shape — a defect called earing. Trimming it away wastes material and adds cost. This project attacks the problem from the other end: instead of fixing the defect after forming, it optimizes the initial blank shape so the earing never appears.
@@ -41,8 +42,8 @@ image::optimization-process.png[title="Optimization pipeline connecting the FE m
 
 [cols="1,1", frame=none, grid=none]
 |===
-a|image:daq-main.png[title="DAQ configuration window"]
-a|image:daq-measurement.png[title="Acquired data (simulated device)"]
+a|image::daq-main.png[title="DAQ configuration window"]
+a|image::daq-measurement.png[title="Acquired data (simulated device)"]
 |===
 
 Setting up a data acquisition session should not require opening LabVIEW or writing MATLAB scripts from scratch every time. DAQx is a MATLAB GUI application that handles the full acquisition workflow with NI DAQ hardware — device selection, channel configuration, real-time visualization, and data export — with no coding required from the user.
@@ -69,8 +70,8 @@ Another fun project, this time on the CAD side. An Excel file defines arrow dime
 
 [cols="1,1", frame=none, grid=none]
 |===
-a|image:cable-organizer.png[title="Side view"]
-a|image:cable-organizer.gif[title="Opened and closed state"]
+a|image::cable-organizer.png[title="Side view"]
+a|image::cable-organizer.gif[title="Opened and closed state"]
 |===
 
 If you have run NVH measurements, you know the chaos that cable management becomes once sensors are attached and the test is live. This 3D printed tool holds cables in labeled slots, lets you prepare the full setup before connecting to the acquisition system, and attaches to any ferromagnetic surface with built-in magnets. Small project, but it solves a real problem.
