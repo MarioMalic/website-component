@@ -17,3 +17,9 @@ Afterwards, Antora is used to piece these pages together and by using the defaul
 Small modifications to the UI template were made with CSS and Handlebars to adjust the style and remove unnecessary elements from the website.
 
 It may not be pretty or modern, but it's clean. 😊
+
+== Links
+
+The portfolio component and the website playbook is hosted on GitHub:
+
+* link:[]

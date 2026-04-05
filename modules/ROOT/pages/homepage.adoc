@@ -1,44 +1,83 @@
-= Hi there!
+= Mario Malić
 :keywords: NVH, FEA, CAD, CAE, automation, mechanical engineering, freelance
 
 
-My name is Mario and I am a mechanical engineer with hands-on experience in noise and vibrations, programming, and simulations, with a unique skill set that can be seen in my portfolio. Proficient in executing NVH campaigns and the advanced usage of engineering software. Experienced in developing custom tools to streamline analyses and workflows and improve engineering efficiency. Independent, detail-oriented, and motivated to push the limits in multidisciplinary environments.
+My name is Mario and I am a mechanical engineer with hands-on experience in noise and vibrations, finite element analysis, and software development. What makes my work interesting is the combination of these fields — I build tools that connect physical testing with numerical simulation, automate repetitive engineering workflows, and turn raw data into useful results.
 
-== Noise and vibrations
+This site is a collection of projects that give a better picture of what I can do. Browse through them below.
 
-* Experienced with test-based modelling of automotive components, such as bushings, lower control arms, subframes, trimmed body and full vehicle models to be used in dynamic substructuring
 
-* Knowledgeable about cutting-edge methods in NVH (Virtual Point, Source Characterization, Dynamic Substructuring, TPA)
+== Noise, vibrations and simulation
 
-* Experienced in conducting small- and large-scale NVH measurement campaigns in both laboratory and field environments
+=== xref:modal-and-experimental-modal-analysis-of-insulation-floors.adoc[Modal and experimental modal analysis of insulation floors]
 
-* Strong knowledge of the NVH measurement chain (sensors, accessories, cables, data acquisition systems)
+[cols="1,1", frame=none, grid=none]
+|===
+a|image:fe-mode-shape.gif[title="Simulated mode shape"]
+a|image:ema-mode-shape.gif[title="Measured mode shape"]
+|===
 
-== Programming
+Structural vibration from ship machinery propagates through the floors to passengers on board. This project builds a finite element model of an insulation floor, runs experimental modal analysis on the real structure, and validates the two against each other — natural frequencies, mode shapes, and damping — achieving less than 5% difference across the first six vibration modes. A good example of the full NVH workflow: model, measure, compare, refine.
 
-Developed MATLAB apps for:
+'''
 
-* Optimization of a deep drawing process by combining simulation tools and optimization algorithms
-* Data acquisition from NI data acquisition systems (DAQ)
-* Various calculation tools designed to automate data post-processing and analysis (reverberation time, curve fitting, spectrum analysis)
+=== xref:deep-drawing-process-optimization.adoc[Deep drawing process optimization]
 
-Other:
+[cols="1,1", frame=none, grid=none]
+|===
+a|image:deep-drawing-animation.gif[title="FE simulation of the deep drawing process"]
+a|image:main-ui.png[title="Optimization tool UI"]
+|===
 
-* Wrote VBA code that communicates with the SolidWorks API to extract geometry information from an assembly model
-* Developed various tools to parse data from engineering software for analysis
-* Built a small LLM chatbot by scraping website content, embedding it into a database, and using the DeepSeek reasoning model for generating responses
+Sheet metal has a directional memory from rolling, which causes uneven deformation when it is drawn into a cup shape — a defect called earing. Trimming it away wastes material and adds cost. This project attacks the problem from the other end: instead of fixing the defect after forming, it optimizes the initial blank shape so the earing never appears.
 
-== Simulations
+The result is a MATLAB app that drives a parameterized FE model through an optimization loop, automatically adjusting a B-spline blank contour until flange height variation is minimized. Single- and multi-objective optimization, parallel computation support, and a full set of per-iteration results are all built in.
 
-* Modal analysis of insulation floors and transmission simulators
-* Non-linear structural analysis of the deep drawing process
-* Script-based FE modelling and automation
+image::optimization-process.png[title="Optimization pipeline connecting the FE model and the algorithm"]
 
-== Other 
+== Software and automation
 
-* CAD design of various CNC machined and 3D printed parts
-* Implemented and managed the backend of an e-learning platform using LearnWorlds as the LMS, supporting course creation and distribution to multiple user tiers
-* Migrated and published software documentation using Antora and Asciidoctor, and performed basic UI theme customization with CSS
-* Implementing a service desk for customer support and bug reports with Jira Service Management (in progress)
-* Taught laboratory classes at the university: Computer-Aided Design, Computer-Aided Analysis, Programming, Vibrations
+=== xref:daqx.adoc[DAQx]
 
+[cols="1,1", frame=none, grid=none]
+|===
+a|image:daq-main.png[title="DAQ configuration window"]
+a|image:daq-measurement.png[title="Acquired data (simulated device)"]
+|===
+
+Setting up a data acquisition session should not require opening LabVIEW or writing MATLAB scripts from scratch every time. DAQx is a MATLAB GUI application that handles the full acquisition workflow with NI DAQ hardware — device selection, channel configuration, real-time visualization, and data export — with no coding required from the user.
+
+'''
+
+=== xref:image-to-adina.adoc[Image to ADINA]
+
+image::image-to-adina.png[title="Strain distribution of trusses with applied colormap"]
+
+A fun one. This script takes any image and generates a script-based finite element input file: a 2D grid of truss elements where each truss has a prescribed displacement, and a custom colormap maps the resulting deformation field back to the RGB values of the original pixels. The output, when post-processed in ADINA, reproduces the original image as a strain plot. Built to demonstrate what is possible with script-based FE modelling and a solid understanding of how the solver works.
+
+'''
+
+=== xref:solidworks-automation-example.adoc[SolidWorks automation example]
+
+image::solidworks-example.png[title="Section view of the hemisphere assembly"]
+
+Another fun project, this time on the CAD side. An Excel file defines arrow dimensions and hemisphere parameters. A MATLAB script reads those inputs, computes the position and orientation of each arrow distributed across a half-hemisphere, and writes the results back to Excel. A SolidWorks VBA macro then reads that file, creates the arrow part with the correct dimensions, and builds the full assembly with every arrow placed in the right position and pointing outward, normal to the surface. No manual placement needed.
+
+== Hardware
+
+=== xref:cable-organizer.adoc[Cable organizer]
+
+[cols="1,1", frame=none, grid=none]
+|===
+a|image:cable-organizer.png[title="Side view"]
+a|image:cable-organizer.gif[title="Opened and closed state"]
+|===
+
+If you have run NVH measurements, you know the chaos that cable management becomes once sensors are attached and the test is live. This 3D printed tool holds cables in labeled slots, lets you prepare the full setup before connecting to the acquisition system, and attaches to any ferromagnetic surface with built-in magnets. Small project, but it solves a real problem.
+
+
+== This website
+
+=== xref:my-website.adoc[My website]
+
+This site is built with AsciiDoc and Antora — the same stack used for professional software documentation, adapted here for a personal portfolio. Content is written in plain text markup, Antora assembles and publishes it as a static site, and small CSS and Handlebars customizations adjust the default theme. It is not flashy, but it is fast, easy to maintain, and open source.
