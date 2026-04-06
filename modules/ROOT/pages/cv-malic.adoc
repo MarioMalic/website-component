@@ -3,16 +3,12 @@
 :icons: font
 
 
-[cols="7,4", frame=none, grid=none]
+[cols="1", frame=none, grid=none]
 |===
 
-1.5+| Mechanical engineer with four years of experience in the NVH domain, known for strong attention to detail and a results-driven mindset.
-|📧 mario@mariomalic.com
-|📱 +31 6 437 62 142
-|🌐 link:linkedin.com/in/mario-malic[LinkedIn]
-|☀️ 32
-|===
+a| Mechanical engineer with four years of experience in the NVH domain, known for strong attention to detail and a results-driven mindset.
 
+|===
 == Work experience
 
 [cols="3d,>1", frame=none, grid=none]

@@ -12,7 +12,7 @@
 |icon:phone-square[] +31 6 437 62 142
 |icon:linkedin-square[] link:linkedin.com/in/mario-malic[LinkedIn]
 |icon:external-link-square[] link:mariomalic.com[mariomalic.com]
-|icon:smile-o[] 32
+
 |===
 
 == Work experience
